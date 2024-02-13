@@ -1,0 +1,5 @@
+*.ipynb
+model/
+results/
+test_trainer/
+.ipynb_checkpoints/
