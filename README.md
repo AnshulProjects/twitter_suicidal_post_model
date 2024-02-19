@@ -1,9 +1,9 @@
 # twitter_suicide_detection_model
 
-This is a BERT model fine tuned to determine whether twitter posts are potentialy suicidal in nature.
+BERT model fine-tuned to determine whether Twitter posts are potentially suicidal.
 
 
-I used Hugging Face libraries to preform the fine tuning.
+I used Huggingface libraries to perform the fine-tuning.
 
 
 ## Format of prompt  
@@ -13,7 +13,7 @@ prompt = "Is this post potentially suicidal: " + tweet
 ```
 
 ## Before Use
-Use the above format to generate most accurate completions.
+Use the above format to generate the most accurate completions.
 
 ## Completion
 0 = " Not a suicidal post ", 
@@ -24,9 +24,8 @@ Use the above format to generate most accurate completions.
 80:20 %
 Epochs = 1
 
-I want to be able to run this on a gpu sand more traiing data as well.
+I want to be able to run this on a GPU and aquire more training data as well.
 
 This model is in the hugging face repository:
 
 https://huggingface.co/Anshul2000s/twitter_suicide_detection_model
-
