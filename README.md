@@ -24,7 +24,7 @@ Use the above format to generate the most accurate completions.
 80:20 %
 Epochs = 1
 
-I want to be able to run this on a GPU and aquire more training data as well.
+I want to be able to run this on a GPU and acquire more training data as well.
 
 This model is in the hugging face repository:
 
